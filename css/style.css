@@ -8,7 +8,9 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+/*RECUERDA === Se colocoa la etiqueta que tu buscas luego depende de si tiene una mas y la clase con el nombre que le diste*/
 
+/*Seccion del header de google */
 header {
     width: 100%;
     height: 3.75rem;
@@ -40,4 +42,60 @@ nav .nav-right-section .menu-section {
 nav .nav-right-section img {
     border-radius: 50%;
     margin-left: 0.8rem;
+}
+/*Seccion main del buscador de google */
+main {
+    margin-top: 11.5rem;
+    text-align: center;
+}
+main .main-logo {
+    width: 40.7rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+main .main-logo img {
+    width: 300px;
+}
+
+main .main-input {
+    width: 40.7rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+main .main-input-container {
+    width: 40rem;
+    border-radius: 7.6rem;
+    border: 2px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input {
+    width: 34.6rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+}
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+main .main-input .search-icon {
+    background-image:url("../assets/icon_search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+main .main-input .micro-icon {
+    background-image:url("../assets/icon_microfono.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
 }
